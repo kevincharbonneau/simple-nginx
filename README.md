@@ -9,6 +9,10 @@ First step is to check your service url.
 $ minikube service <your_service_name> --url
 http://192.168.99.100:30806
 ```
+You can now download this repository.
+```bash
+git clone https://github.com/kevincharbonneau/simple-nginx.git
+```
 
 Once this is done, you have to modify `simple-nginx/nginx.default` this way.
 ```
